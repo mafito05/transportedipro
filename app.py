@@ -16,9 +16,9 @@ def entrada(ruta):
     return plan
 
 # Cargar archivos precargados
-productos = pd.read_excel("C:/Users/mafit/PRACTICAS_PYTHON/app/producto_limpio.xlsx")
-macro = pd.read_excel("C:/Users/mafit/PRACTICAS_PYTHON/app/MAYORISTA.xlsx")
-tarifa = pd.read_excel("C:/Users/mafit/PRACTICAS_PYTHON/app/tarifas.xlsx")
+productos = pd.read_excel("producto_limpio.xlsx")
+macro = pd.read_excel("MAYORISTA.xlsx")
+tarifa = pd.read_excel("tarifas.xlsx")
 
 # Configurar la interfaz de Streamlit
 st.title('Calculadora de Plan de Reparto')
